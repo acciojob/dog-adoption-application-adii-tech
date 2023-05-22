@@ -13,21 +13,21 @@
 		<input type="text" id="name" name="name" placeholder="Name" required><br><br>
 		
 		<label for="phone">Phone number:</label><br>
-		<input type="text" id="phone" name="number" placeholder="Phone Number" required><br><br>
+		<input type="text" id="phone" name="phone" placeholder="Phone Number" required><br><br>
 		
 		<label for="address">Address:</label><br>
 		<input type="text" id="address" name="address" placeholder="Address" required><br><br>
 
 		<label for="checkbox">Have you ever lived with a Dog before? </label><br>
-		<input type="checkbox" id="checkbox" name="box" value="Have you ever lived with a Dog before?" required><br><br>
+		<input type="checkbox" id="checkbox" name="Have you ever lived with a Dog before?" value="Have you ever lived with a Dog before?" required><br><br>
      <p>Please select your preferred breeds</p>
-		<select id="multiSelect">
+		<select id="multiSelect" multiple>
 	    <option value=""></option>
         <option value="america">American Black Bear</option>
          <option value="black">Asiatic Black Bear</option>
          <option value="broun">Brown Bear</option>
 		</select><br><br>
-		<button type="submit" form="form1" value="Submit" >Submit</button>
+		<input type="submit" id="submit" form="form1" value="Submit" >
 		
 	</form>
     <script type="text/javascript" src="./script.js">
